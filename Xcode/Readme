@@ -1,1 +1,17 @@
 This folder contains Xcode project with inclusive of glassmorphic design.
+CODE TO CREATE LINEAR GRADIENT IN SWIFTUI
+LinearGradient(colors: [Color.cyan.opacity(0.2),Color.purple.opacity(0.5)], startPoint: .topLeading, endPoint: .bottomTrailing)
+
+TO CREATE CIRCLE AS BG IN SWIFTUI
+Circle().frame(width: 300).foregroundColor(Color.blue.opacity(0.1)).blur(radius: 25).offset(x: -100,y: -150) //THIS IS A PINK CIRCLE
+
+TO CREATE ROUNDED RECTANGLE AS A BG IN SWIFT UI
+RoundedRectangle(cornerRadius: 30,style: .continuous).frame(width: 500, height: 500).foregroundStyle(LinearGradient(colors:[Color.purple.opacity(0.4), Color.mint.opacity(0.2)], startPoint: .top, endPoint: .leading))
+                .offset(x: 300).blur(radius: 30).rotationEffect(.degrees(30))
+                
+TO CREATE ULTA THIN MATERIAL BG 
+.foregroundStyle(LinearGradient(colors: [.blue,.indigo], startPoint: .top, endPoint: .bottom)).background(.ultraThinMaterial,in: RoundedRectangle(cornerRadius: 12,style:.continuous)).offset(y: 250)
+
+NOTE: 
+TO FILL THE SAFE AREA
+.edgesIgnoringSafeArea(.all)
