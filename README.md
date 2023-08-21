@@ -1,6 +1,6 @@
 # Rate Us Screen Animated in SwiftUI
 
-"Rate_US_screen-animated" is a SwiftUI project that demonstrates the creation of a "Rate Us" screen using the Glassmorphic design trend and Lottie animations. The project showcases the integration of stunning visual effects and smooth animations to create an engaging user experience.
+"Rate_US_screen_animated" is a SwiftUI project that demonstrates the creation of a "Rate Us" screen using the Glassmorphic design trend and Lottie animations. The project showcases the integration of stunning visual effects and smooth animations to create an engaging user experience.
 
 ## Features
 ### Glassmorphic Design: 
